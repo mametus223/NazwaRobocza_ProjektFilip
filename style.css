@@ -4,9 +4,9 @@
     font-family: sans-serif;
 }
 .container{
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    background-image: url(obrazy/tl.jpg);
+    background-image: url(tl.jpg);
     background-size: cover;
     background-position: center;
     position: relative;

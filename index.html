@@ -7,10 +7,10 @@
 <body>
     <div class="container">
         <div class="navbar">
-            <img src="obrazy/logo.webp" class="logo">
+            <img src="logo.webp" class="logo">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="shop.html">Shop</a></li>
                 <li><a href="#">Top 100</a></li>
                 <li><a href="#">Preorder</a></li>
                 <li><a href="#">Contact</a></li>
@@ -23,14 +23,14 @@
         </div>
             <div class="right-col">
                 <P>Check Out Today's Hit</P>
-                <img src="obrazy/play.jpg" id="icon">
+                <img src="play.jpg" id="icon">
             </div>
         </div>
 
     </div>
 
     <audio id="TopSong">
-        <source src="obrazy/song.mp3" type="audio/mp3">
+        <source src="song.mp3" type="audio/mp3">
     </audio>
 
     <script>
@@ -41,10 +41,10 @@
         icon.onclick = function(){
             if(TopSong.paused){
                 TopSong.play();
-                icon.src = "obrazy/pause.png";
+                icon.src = "pause.png";
             }else{
                 TopSong.pause();
-                icon.src = "obrazy/play.jpg";
+                icon.src = "play.jpg";
 
             }
         
