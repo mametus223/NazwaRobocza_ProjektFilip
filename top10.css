@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .nav{
     height: 100%;
     width: 100%;
@@ -11,7 +14,6 @@
     margin: auto;
     padding: 15px 0;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 .logo{
@@ -67,4 +69,16 @@
     font-size: 20px;     
     cursor: pointer;     
     
+}
+.column {
+    float: left; 
+    padding: 10px;
+    height: fit-content;
+    text-align: left;
+    
+}
+.row ::after {
+    content: "";
+    display: table;
+    clear: both;
 }
